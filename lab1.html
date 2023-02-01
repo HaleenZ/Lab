@@ -1,0 +1,59 @@
+<!DOCTYPE>
+
+<html>
+<head>
+	   <title>FORMS</title>
+	   
+</head>
+<body>
+
+    <h1><b>FORM</b></h1><hr>
+
+    <h3>DETAILS</h3>
+	        
+      
+      <form action="my.html" method="post" target="blank" enctype="multipart form data">
+
+       <label for="Name">Name</label><br>
+           <input type="NAME" placeholder="Name" required="mandatory" maxlength="25 characters"><br>
+
+       <label for="Email">Email</label><br>
+          <input type="email" id="email" name="Email"  defaultvalue="test@example.com" placeholder="test@example.com" required="mandatory" autofocus="autofocus">
+          <br><br>
+
+       <label for="pwd">Password:</label><br>
+           <input type="password" id=pwd name="password" required="mandatory" maxlength="6 characters"><hr>
+
+    <h2>category</h2>
+       <select  value="freelancer"checked="freelancer">       
+       <label for="category">category</label><br>
+           <option required="needed" >student</option>
+           <option required="needed" >employee</option>
+	        <option value="freelancer"  required="needed" checked="freelancer" selected>freelancer</option><br><br>
+       
+	  
+
+    </select><br><br><br>
+
+       <label for="Event Date">Event Date</label><br>
+	        <input type="date" name="Event Date" required="mandatory">Event Date<br><br>
+
+	  <label for="Tickets">Tickets</label><br> 
+            <input type="radio" name="subject" required="required">Ticket1
+            <input type="radio" name="subject" checked="Ticket2" required="required">Ticket2
+            <input type="radio" name="subject" required="required">Ticket3<br><br>
+
+       <label for="PAYMENT">PAYMENT</label><br>
+           <input type="checkbox" name="on pay" required="required">Online Payment<br><br>
+           <form action="form.html" method="get">
+
+           <label for="Notes">Notes</label><br>
+           <textarea rows="5" cols="50" name="description" placeholder="notes...."></textarea><br><br>
+           <input type="submit" value="submit"/>
+  
+           
+ 
+      </form>
+
+</body>
+</html>
